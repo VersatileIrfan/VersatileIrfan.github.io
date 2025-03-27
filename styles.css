@@ -102,3 +102,28 @@ header {
     }
 }
 
+#hire-me {
+    text-align: center;
+    padding: 30px;
+    background: #f8f9fa;
+    margin-top: 20px;
+}
+
+#hire-me p {
+    color: #555;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #28a745; /* Green button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background: #218838;
+}
