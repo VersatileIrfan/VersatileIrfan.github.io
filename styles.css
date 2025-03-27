@@ -85,3 +85,20 @@ nav a:hover {
     background: #0056b3;
 }
 
+header {
+    text-align: center; 
+    padding: 30px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+}
+@media (max-width: 600px) {
+    .btn {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
