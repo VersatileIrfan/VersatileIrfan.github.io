@@ -217,3 +217,57 @@ p {
     margin: 0 auto;
 }
 
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #007bff; /* Blue color */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: #0056b3; /* Darker blue */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+.projects {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.project .btn {
+    margin-top: 10px;
+    display: inline-block;
+}
