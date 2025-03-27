@@ -34,3 +34,10 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes it circular */
+    display: block;
+    margin: 10px auto; /* Centers the image */
+}
